@@ -1,0 +1,36 @@
+Entities:
+
+Tapestry
+Owner
+Artist
+Exhibition
+Sponsor
+Attributes:
+
+Tapestry:
+Title
+Estimated value
+Current location
+Acquisition date
+Insurance value
+Previous owners
+Owner:
+Name
+Artist:
+Name
+Date of birth
+Date of death
+Nationality
+Exhibition:
+Title
+Start date
+Finish date
+Venue
+Sponsor:
+Name
+Relationships:
+
+Tapestry - Owner (One-to-Many): Each tapestry is owned by one owner, but an owner can own multiple tapestries.
+Tapestry - Artist (Many-to-One): Multiple tapestries can be created by one artist, but each tapestry is created by one artist.
+Tapestry - Exhibition (Many-to-Many): A tapestry can be exhibited in multiple exhibitions, and an exhibition can display multiple tapestries.
+Exhibition - Sponsor (Many-to-Many): Multiple sponsors can sponsor an exhibition, and a sponsor can sponsor multiple exhibitions.
