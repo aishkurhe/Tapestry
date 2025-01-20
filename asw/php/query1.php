@@ -1,5 +1,5 @@
 <?php
-// Database credentials
+// Database credentials adding message
 $servername = "localhost";
 $username = "root";
 $password = "";
